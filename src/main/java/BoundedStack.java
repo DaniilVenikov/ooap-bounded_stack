@@ -6,7 +6,7 @@ public class BoundedStack<T> {
     // скрытые поля
     private List<T> list; // основное хранилище стека
     private int maxStackSize; // максимально допустимое количество элементов в стеке
-    private int pushStatus;
+    private int pushStatus; // статус запроса push()
     private int peekStatus; // статус запроса peek()
     private int popStatus; // статус команды pop()
 
